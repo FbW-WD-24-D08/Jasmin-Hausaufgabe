@@ -1,0 +1,29 @@
+/* Hintergrund für die gesamte Seite */
+body {
+  background-color: #f0f0f0ad;
+  font-family: "Arial", sans-serif;
+}
+
+/* Styling für die Überschrift */
+h1 {
+  color: #1e90ff;
+  font-size: 32px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* Allgemeines Styling für Absätze */
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Spezifisches Styling für den ersten Absatz */
+p:first-of-type {
+  font-weight: bold;
+}
+
+/* Spezifisches Styling für den zweiten Absatz */
+p:nth-of-type(2) {
+  font-style: italic;
+}

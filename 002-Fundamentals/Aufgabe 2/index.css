@@ -1,0 +1,76 @@
+body {
+  background-color: #544c64;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Grundstyle für die Produktkarte */
+.product-card {
+  width: 300px;
+  border: 1px solid #4a2d57; /* Weicher lila Rahmen */
+  border-radius: 12px; /* Abgerundete Ecken */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sanfter Schatten */
+  background-color: #ffffff; /* Weiße Kartenfläche */
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Sanfter Hover-Effekt */
+}
+
+/* Style für das Produktbild */
+.product-image {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #eaeaea; /* Trennung zwischen Bild und Info */
+}
+
+/* Container für die Produktinformationen */
+.product-info {
+  padding: 20px;
+}
+
+/* Produkttitel Styling */
+.product-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #5a3e85; /* Sanftes Lila */
+  margin: 0;
+}
+
+/* Preis Styling */
+.product-price {
+  font-size: 1.2em;
+  color: #417d57; /* Dunkles Grün */
+  margin: 10px 0;
+}
+
+/* Beschreibungstext Styling */
+.product-description {
+  line-height: 1.6;
+  color: #555; /* Dezentes Grau für Lesbarkeit */
+  margin: 0;
+}
+
+/* Kaufen-Button Styling */
+.buy-button {
+  display: inline-block;
+  background-color: #403268; /* Tiefes Lila */
+  color: #ffffff; /* Weißer Text */
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #834997; /* Etwas helleres Lila beim Hover */
+}
